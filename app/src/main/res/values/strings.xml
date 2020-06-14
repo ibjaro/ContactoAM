@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ContactoAM</string>
+    <string name="tiet_Contacto">Nombre Completo</string>
+    <string name="tiet_Fechadenac">Fecha de Nacimiento</string>
+    <string name="tiet_Telefono">Telefono</string>
+    <string name="tiet_Email">Email</string>
+    <string name="tiet_Descripcion">Descripcion</string>
+    <string name="btn_Siguiente">Siguiente</string>
+    <string name="btn_Editar">Editar</string>
+    <string name="cdimgv_Contacto">Imagen de Contacto</string>
+    <string name="cdimgv_fechadenac">Imagen de Fecha de nacimiento</string>
+    <string name="cdimgv_Telefono">Imagen de Telefono</string>
+    <string name="cdimgv_Email">Imagen de Email</string>
+    <string name="cdimgv_descripcion">Imagen de Descripcion</string>
+    <string name="txv_titulo">Confirmar Datos</string>
+    <string name="txvetiq_contacto">Nombre:</string>
+    <string name="txvetiq_fechanac">Fecha de Nacimiento:</string>
+    <string name="txvetiq_telefono">Telefono:</string>
+    <string name="txvetiq_email">Email:</string>
+    <string name="txvetiq_descripcion">Descripcion:</string>
+    <string name="mensaje1">siguio en el try</string>
+    <string name="onCreate1">OnCreate 1</string>
+    <string name="onStart1">OnStart 1</string>
+    <string name="onResume1">OnResume 1</string>
+    <string name="onStop1">OnStop 1</string>
+    <string name="onPause1">OnPause 1</string>
+    <string name="onRestart1">OnRestart 1</string>
+    <string name="onDestroy1">OnDestroy 1</string>
+    <string name="onCreate2">OnCreate 2</string>
+    <string name="onStart2">OnStart 2</string>
+    <string name="onResume2">OnResume 2</string>
+    <string name="onStop2">OnStop 2</string>
+    <string name="onPause2">OnPause 2</string>
+    <string name="onRestart2">OnRestart 2</string>
+    <string name="onDestroy2">OnDestroy 2</string>
+</resources>

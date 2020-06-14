@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmacionAM"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margen_sup"
+        android:text="@string/txv_titulo"
+        android:textStyle="bold"
+        android:textSize="@dimen/tama_letratitutxv"
+        />
+
+    <LinearLayout
+        android:id="@+id/lyConfircontacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margen_sup">
+
+        <TextView
+            android:id="@+id/txvConfiretiqcontacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:text="@string/txvetiq_contacto"
+            android:textStyle="bold"
+            android:textSize="@dimen/tama_letratxv"/>
+        <TextView
+            android:id="@+id/txvConfircontacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_marginEnd="@dimen/margen_right"
+            android:layout_marginRight="@dimen/margen_right"
+            android:text=""
+            android:textSize="@dimen/tama_letratxv"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyConfirfechanac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margen_sup">
+
+        <TextView
+            android:id="@+id/txvConfiretiqfechanac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:text="@string/txvetiq_fechanac"
+            android:textStyle="bold"
+            android:textSize="@dimen/tama_letratxv"/>
+        <TextView
+            android:id="@+id/txvConfirfechanac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_marginEnd="@dimen/margen_right"
+            android:layout_marginRight="@dimen/margen_right"
+            android:text=""
+            android:textSize="@dimen/tama_letratxv"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyConfirtelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margen_sup">
+
+        <TextView
+            android:id="@+id/txvConfiretiqtelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:text="@string/txvetiq_telefono"
+            android:textStyle="bold"
+            android:textSize="@dimen/tama_letratxv"/>
+        <TextView
+            android:id="@+id/txvConfirtelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_marginEnd="@dimen/margen_right"
+            android:layout_marginRight="@dimen/margen_right"
+            android:text=""
+            android:textSize="@dimen/tama_letratxv"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyConfiremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margen_sup">
+
+        <TextView
+            android:id="@+id/txvConfiretiqemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:text="@string/txvetiq_email"
+            android:textStyle="bold"
+            android:textSize="@dimen/tama_letratxv"/>
+        <TextView
+            android:id="@+id/txvConfiremail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_marginEnd="@dimen/margen_right"
+            android:layout_marginRight="@dimen/margen_right"
+            android:text=""
+            android:textSize="@dimen/tama_letratxv"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyConfirdescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margen_sup">
+
+        <TextView
+            android:id="@+id/txvConfiretiqdescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:text="@string/txvetiq_descripcion"
+            android:textStyle="bold"
+            android:textSize="@dimen/tama_letratxv"/>
+        <TextView
+            android:id="@+id/txvConfirdescipcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_marginEnd="@dimen/margen_right"
+            android:layout_marginRight="@dimen/margen_right"
+            android:text=""
+            android:textSize="@dimen/tama_letratxv"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margentop_btn"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_Editar"
+        android:theme="@style/MiBotonMD"
+        android:textSize="@dimen/tama_btn"/>
+
+</LinearLayout>

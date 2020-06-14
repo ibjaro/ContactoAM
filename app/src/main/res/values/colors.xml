@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color><!-- #6200EE-->
+    <color name="colorPrimaryDark">#303F9F</color><!-- #3700B3-->
+    <color name="colorAccent">#9E9E9E</color><!-- #03DAC5-->
+    <color name="cbtn_normal">#3F51B5</color>
+    <color name="cbtn_texto">#FFFFFF</color>
+    <color name="cbtn_hl">#BDBDBD</color>
+</resources>

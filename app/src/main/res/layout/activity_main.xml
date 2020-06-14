@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lyContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margen_sup"
+         >
+        <ImageView
+            android:id="@+id/imgvContacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/usuario"
+            android:contentDescription="@string/cdimgv_Contacto"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilyContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_marginEnd="@dimen/margen_right"
+            android:layout_marginRight="@dimen/margen_right">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tiet_Contacto"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyFechadenac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margen_sup"
+        >
+
+        <ImageView
+            android:id="@+id/imgvFechadenac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/calendario"
+            android:contentDescription="@string/cdimgv_fechadenac"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilyFechadenac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_marginEnd="@dimen/margen_right"
+            android:layout_marginRight="@dimen/margen_right">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietFechadenac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tiet_Fechadenac"
+                android:inputType="date"
+                android:focusable="false"
+                android:clickable="true"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margen_sup"
+        >
+        <ImageView
+            android:id="@+id/imgvTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/telefono"
+            android:contentDescription="@string/cdimgv_Telefono"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilyTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_marginEnd="@dimen/margen_right"
+            android:layout_marginRight="@dimen/margen_right">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tiet_Telefono"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margen_sup"
+        >
+        <ImageView
+            android:id="@+id/imgvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/email"
+            android:contentDescription="@string/cdimgv_Email"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilyEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_marginEnd="@dimen/margen_right"
+            android:layout_marginRight="@dimen/margen_right">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tiet_Email"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margen_sup"
+        >
+        <ImageView
+            android:id="@+id/imgvDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/notas"
+            android:contentDescription="@string/cdimgv_descripcion"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilyDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margen_left"
+            android:layout_marginLeft="@dimen/margen_left"
+            android:layout_marginEnd="@dimen/margen_right"
+            android:layout_marginRight="@dimen/margen_right">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tiet_Descripcion"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margentop_btn"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_Siguiente"
+        android:theme="@style/MiBotonMD"
+        android:textSize="@dimen/tama_btn"
+        />
+
+</LinearLayout>

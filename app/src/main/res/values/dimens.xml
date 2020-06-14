@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="texto">25sp</dimen>
+    <dimen name="margen_left">10dp</dimen>
+    <dimen name="margen_right">10dp</dimen>
+    <dimen name="margen_sup">15dp</dimen>
+    <dimen name="tama_btn">20sp</dimen>
+    <dimen name="margentop_btn">10dp</dimen>
+    <dimen name="tama_letratitutxv">25sp</dimen>
+    <dimen name="tama_letratxv">20sp</dimen>
+</resources>
